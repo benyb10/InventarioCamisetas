@@ -7,6 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="Tests\IntegrationTests\ArticuloIntegrationTests.cs" />
+    <Content Include="Tests\IntegrationTests\PrestamoIntegrationTests.cs" />
+    <Content Include="Tests\IntegrationTests\UsuarioIntegrationTests.cs" />
+    <Content Include="Tests\TestHelpers\TestDataBuilder.cs" />
+    <Content Include="Tests\TestHelpers\TestDbContext.cs" />
+    <Content Include="Tests\UnitTests\ArticuloServiceTests.cs" />
+    <Content Include="Tests\UnitTests\AuthServiceTests.cs" />
+    <Content Include="Tests\UnitTests\PrestamoServiceTests.cs" />
+    <Content Include="Tests\UnitTests\ReporteServiceTests.cs" />
+    <Content Include="Tests\UnitTests\UsuarioServiceTests.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
@@ -48,12 +61,15 @@
 
   <ItemGroup>
     <Folder Include="DataAccess\Migrations\" />
-    <Folder Include="Documentation\" />
-    <Folder Include="Scripts\" />
-    <Folder Include="Web\Controllers\" />
-    <Folder Include="Web\Models\" />
-    <Folder Include="Web\wwwroot\" />
-    <Folder Include="Web\Views\" />
+    <Folder Include="wwwroot\Documentation\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Scripts\auth.js" />
+    <None Include="wwwroot\Scripts\dashboard.js" />
+    <None Include="wwwroot\Web\dashboard.html" />
+    <None Include="wwwroot\Web\index.html" />
+    <None Include="wwwroot\Web\styles.css" />
   </ItemGroup>
 
 </Project>

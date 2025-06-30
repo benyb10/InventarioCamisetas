@@ -88,7 +88,7 @@ namespace XWY.WebAPI.Tests.UnitTests
 
             _mockArticuloRepository.Setup(x => x.GetByIdAsync(createDto.ArticuloId)).ReturnsAsync(articulo);
             _mockPrestamoRepository.Setup(x => x.UserHasActiveLoanAsync(createDto.UsuarioId, createDto.ArticuloId)).ReturnsAsync(false);
-            _mockEstadoPrestamoRepository.Setup(x => x.FirstOrDefaultAsync(It.IsAny<System.Linq.Expressions.Expression<System.Func<EstadoPrestamo, bool>>>())).ReturnsAsync(estadoPendiente);
+            _mockEstadoPrestamoRepository.Setup(x => x.FirstOrDefaultAsync(It.IsAny<System.Linq.Expressions.Expression<Func<EstadoPrestamo, bool>>>())).ReturnsAsync(estadoPendiente);
             _mockMapper.Setup(x => x.Map<Prestamo>(createDto)).Returns(prestamo);
             _mockPrestamoRepository.Setup(x => x.AddAsync(It.IsAny<Prestamo>())).Returns(Task.CompletedTask);
             _mockUnitOfWork.Setup(x => x.SaveChangesAsync()).ReturnsAsync(1);
@@ -146,9 +146,9 @@ namespace XWY.WebAPI.Tests.UnitTests
             };
 
             _mockPrestamoRepository.Setup(x => x.GetByIdAsync(devolucionDto.Id)).ReturnsAsync(prestamo);
-            _mockEstadoPrestamoRepository.Setup(x => x.FirstOrDefaultAsync(It.IsAny<System.Linq.Expressions.Expression<System.Func<EstadoPrestamo, bool>>>())).ReturnsAsync(estadoDevuelto);
+            _mockEstadoPrestamoRepository.Setup(x => x.FirstOrDefaultAsync(It.IsAny<System.Linq.Expressions.Expression<Func<EstadoPrestamo, bool>>>())).ReturnsAsync(estadoDevuelto);
             _mockArticuloRepository.Setup(x => x.GetByIdAsync(prestamo.ArticuloId)).ReturnsAsync(articulo);
-            _mockEstadoArticuloRepository.Setup(x => x.FirstOrDefaultAsync(It.IsAny<System.Linq.Expressions.Expression<System.Func<EstadoArticulo, bool>>>())).ReturnsAsync(estadoDisponible);
+            _mockEstadoArticuloRepository.Setup(x => x.FirstOrDefaultAsync(It.IsAny<System.Linq.Expressions.Expression<Func<EstadoArticulo, bool>>>())).ReturnsAsync(estadoDisponible);
             _mockUnitOfWork.Setup(x => x.SaveChangesAsync()).ReturnsAsync(1);
             _mockPrestamoRepository.Setup(x => x.GetByIdWithRelationsAsync(devolucionDto.Id)).ReturnsAsync(prestamoConRelaciones);
             _mockMapper.Setup(x => x.Map<PrestamoDto>(prestamoConRelaciones)).Returns(prestamoDto);
@@ -376,7 +376,7 @@ namespace XWY.WebAPI.Tests.UnitTests
             var estadoPendiente = new EstadoPrestamo { Id = 1, Nombre = "Pendiente" };
 
             _mockPrestamoRepository.Setup(x => x.GetByIdAsync(prestamoId)).ReturnsAsync(prestamo);
-            _mockEstadoPrestamoRepository.Setup(x => x.FirstOrDefaultAsync(It.IsAny<System.Linq.Expressions.Expression<System.Func<EstadoPrestamo, bool>>>())).ReturnsAsync(estadoPendiente);
+            _mockEstadoPrestamoRepository.Setup(x => x.FirstOrDefaultAsync(It.IsAny<System.Linq.Expressions.Expression<Func<EstadoPrestamo, bool>>>())).ReturnsAsync(estadoPendiente);
             _mockUnitOfWork.Setup(x => x.SaveChangesAsync()).ReturnsAsync(1);
 
             var result = await _prestamoService.DeleteAsync(prestamoId);
@@ -399,7 +399,7 @@ namespace XWY.WebAPI.Tests.UnitTests
             var estadoPendiente = new EstadoPrestamo { Id = 1, Nombre = "Pendiente" };
 
             _mockPrestamoRepository.Setup(x => x.GetByIdAsync(prestamoId)).ReturnsAsync(prestamo);
-            _mockEstadoPrestamoRepository.Setup(x => x.FirstOrDefaultAsync(It.IsAny<System.Linq.Expressions.Expression<System.Func<EstadoPrestamo, bool>>>())).ReturnsAsync(estadoPendiente);
+            _mockEstadoPrestamoRepository.Setup(x => x.FirstOrDefaultAsync(It.IsAny<System.Linq.Expressions.Expression<Func<EstadoPrestamo, bool>>>())).ReturnsAsync(estadoPendiente);
 
             var result = await _prestamoService.DeleteAsync(prestamoId);
 

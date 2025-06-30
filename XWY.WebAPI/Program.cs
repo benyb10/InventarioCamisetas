@@ -1,6 +1,7 @@
-using XWY.WebAPI.WebAPI.Middleware;
+using Microsoft.EntityFrameworkCore; // Asegúrate de tener este using
 using XWY.WebAPI.DataAccess.Context;
 using XWY.WebAPI.Extensions;
+using XWY.WebAPI.WebAPI.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -29,11 +30,14 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "XWY Inventario API v1");
-        c.RoutePrefix = string.Empty;
+        c.RoutePrefix = "swagger";
     });
 }
 
-// Middlewares en orden correcto - TEMPORAL: SIN AuditMiddleware
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+// Middlewares en orden correcto
 app.UseMiddleware<ExceptionMiddleware>();
 app.UseMiddleware<AuthenticationMiddleware>();
 // COMENTADO TEMPORALMENTE: app.UseMiddleware<AuditMiddleware>();
@@ -47,7 +51,7 @@ app.UseAuthorization();
 app.MapControllers();
 app.MapHealthChecks("/health");
 
-// Inicializar base de datos solo si no es un entorno de testing
+// Inicializar base de datos y verificar conexión
 if (!app.Environment.EnvironmentName.Equals("Testing", StringComparison.OrdinalIgnoreCase))
 {
     using (var scope = app.Services.CreateScope())
@@ -55,6 +59,15 @@ if (!app.Environment.EnvironmentName.Equals("Testing", StringComparison.OrdinalI
         var context = scope.ServiceProvider.GetRequiredService<XWYDbContext>();
         try
         {
+            // ---> CÓDIGO DE DIAGNÓSTICO <---
+            var connectionString = context.Database.GetConnectionString();
+            Console.WriteLine(); // Línea en blanco para separar
+            Console.WriteLine("********************************************************************************");
+            Console.WriteLine("--- LA APLICACIÓN SE ESTÁ CONECTANDO A ESTA BASE DE DATOS ---");
+            Console.WriteLine(connectionString);
+            Console.WriteLine("********************************************************************************");
+            Console.WriteLine(); // Línea en blanco para separar
+
             context.Database.EnsureCreated();
             Console.WriteLine("Base de datos verificada/creada exitosamente.");
         }
@@ -67,5 +80,4 @@ if (!app.Environment.EnvironmentName.Equals("Testing", StringComparison.OrdinalI
 
 app.Run();
 
-// Hacer la clase Program pública para los tests de integración
 public partial class Program { }

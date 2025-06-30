@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - XWY Inventario</title>
+    <link rel="stylesheet" href="/Web/styles.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <nav class="sidebar">
+            <h3>XWY Inventario</h3>
+            <ul>
+                <li><a href="#" id="menu-articulos">Gestión de Artículos</a></li>
+                <li><a href="#" id="menu-prestamos">Gestión de Préstamos</a></li>
+                <li><a href="#" id="menu-usuarios">Gestión de Usuarios</a></li>
+                <li><a href="#" id="menu-reportes">Reportes</a></li>
+            </ul>
+            <button id="logoutBtn" class="btn btn-logout">Cerrar Sesión</button>
+        </nav>
+        <main class="main-content">
+            <header>
+                <h1>Bienvenido, <span id="userName"></span>!</h1>
+            </header>
+            <div id="content-area">
+                <h2>Selecciona una opción del menú para comenzar.</h2>
+            </div>
+        </main>
+    </div>
+
+    <div id="actionModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div id="modal-body">
+            </div>
+        </div>
+    </div>
+
+    <script src="/Scripts/dashboard.js"></script>
+    <script src="/Scripts/user-management.js"></script>
+    <script src="/Scripts/article-management.js"></script>
+</body>
+</html>

@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|c:\\users\\bryan\\source\\repos\\xwy.inventariosolution\\xwy.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|solutionrelative:xwy.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|c:\\users\\bryan\\source\\repos\\xwy.inventariosolution\\xwy.webapi\\wwwroot\\web\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|solutionrelative:xwy.webapi\\wwwroot\\web\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|c:\\users\\bryan\\source\\repos\\xwy.inventariosolution\\xwy.webapi\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|solutionrelative:xwy.webapi\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|c:\\users\\bryan\\source\\repos\\xwy.inventariosolution\\xwy.webapi\\wwwroot\\web\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|solutionrelative:xwy.webapi\\wwwroot\\web\\dashboard.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|c:\\users\\bryan\\source\\repos\\xwy.inventariosolution\\xwy.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|solutionrelative:xwy.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|c:\\users\\bryan\\source\\repos\\xwy.inventariosolution\\xwy.webapi\\wwwroot\\scripts\\article-management.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|solutionrelative:xwy.webapi\\wwwroot\\scripts\\article-management.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|c:\\users\\bryan\\source\\repos\\xwy.inventariosolution\\xwy.webapi\\webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|solutionrelative:xwy.webapi\\webapi\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|c:\\users\\bryan\\source\\repos\\xwy.inventariosolution\\xwy.webapi\\wwwroot\\scripts\\user-management.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|solutionrelative:xwy.webapi\\wwwroot\\scripts\\user-management.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|c:\\users\\bryan\\source\\repos\\xwy.inventariosolution\\xwy.webapi\\wwwroot\\scripts\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{81E77B07-83CE-478A-99A5-9CA5B1927A26}|XWY.WebAPI\\XWY.WebAPI.csproj|solutionrelative:xwy.webapi\\wwwroot\\scripts\\dashboard.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,53 +43,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\Program.cs",
-              "RelativeDocumentMoniker": "XWY.WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\Program.cs",
-              "RelativeToolTip": "XWY.WebAPI\\Program.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAQwEYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T00:57:22.896Z",
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\wwwroot\\Web\\styles.css",
+              "RelativeDocumentMoniker": "XWY.WebAPI\\wwwroot\\Web\\styles.css",
+              "ToolTip": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\wwwroot\\Web\\styles.css",
+              "RelativeToolTip": "XWY.WebAPI\\wwwroot\\Web\\styles.css",
+              "ViewState": "AgIAACwBAAAAAAAAAAAAwC8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-30T03:38:38.252Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\WebAPI\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "XWY.WebAPI\\WebAPI\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\WebAPI\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "XWY.WebAPI\\WebAPI\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAkwJoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T01:28:22.81Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ServiceExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\WebAPI\\Extensions\\ServiceExtensions.cs",
-              "RelativeDocumentMoniker": "XWY.WebAPI\\WebAPI\\Extensions\\ServiceExtensions.cs",
-              "ToolTip": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\WebAPI\\Extensions\\ServiceExtensions.cs",
-              "RelativeToolTip": "XWY.WebAPI\\WebAPI\\Extensions\\ServiceExtensions.cs",
-              "ViewState": "AgIAALsAAAAAAAAAAAAkwNgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T01:02:42.878Z",
+              "Title": "dashboard.html",
+              "DocumentMoniker": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\wwwroot\\Web\\dashboard.html",
+              "RelativeDocumentMoniker": "XWY.WebAPI\\wwwroot\\Web\\dashboard.html",
+              "ToolTip": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\wwwroot\\Web\\dashboard.html",
+              "RelativeToolTip": "XWY.WebAPI\\wwwroot\\Web\\dashboard.html",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-30T03:38:18.487Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "XWY.WebAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\appsettings.json",
-              "RelativeToolTip": "XWY.WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-30T00:56:47.348Z",
+              "Title": "article-management.js",
+              "DocumentMoniker": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\wwwroot\\Scripts\\article-management.js",
+              "RelativeDocumentMoniker": "XWY.WebAPI\\wwwroot\\Scripts\\article-management.js",
+              "ToolTip": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\wwwroot\\Scripts\\article-management.js",
+              "RelativeToolTip": "XWY.WebAPI\\wwwroot\\Scripts\\article-management.js",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAgwF0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-30T03:37:59.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "user-management.js",
+              "DocumentMoniker": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\wwwroot\\Scripts\\user-management.js",
+              "RelativeDocumentMoniker": "XWY.WebAPI\\wwwroot\\Scripts\\user-management.js",
+              "ToolTip": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\wwwroot\\Scripts\\user-management.js",
+              "RelativeToolTip": "XWY.WebAPI\\wwwroot\\Scripts\\user-management.js",
+              "ViewState": "AgIAADUAAAAAAAAAAAAgwFIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-30T03:37:40.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dashboard.js",
+              "DocumentMoniker": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\wwwroot\\Scripts\\dashboard.js",
+              "RelativeDocumentMoniker": "XWY.WebAPI\\wwwroot\\Scripts\\dashboard.js",
+              "ToolTip": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\wwwroot\\Scripts\\dashboard.js",
+              "RelativeToolTip": "XWY.WebAPI\\wwwroot\\Scripts\\dashboard.js",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-30T03:37:21.167Z",
               "EditorCaption": ""
             }
           ]
