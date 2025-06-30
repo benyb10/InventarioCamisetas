@@ -1,0 +1,1974 @@
+[
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "GetAll",
+    "RelativePath": "api/Articulo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nombre",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Codigo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Equipo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoriaId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoArticuloId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrdenarPor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descendente",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "Create",
+    "RelativePath": "api/Articulo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "articuloCreateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.ArticuloCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "GetById",
+    "RelativePath": "api/Articulo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "Update",
+    "RelativePath": "api/Articulo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "articuloUpdateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.ArticuloUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "Delete",
+    "RelativePath": "api/Articulo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "GetAvailable",
+    "RelativePath": "api/Articulo/available",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "GetAvailableStock",
+    "RelativePath": "api/Articulo/available-stock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "GetByCategoria",
+    "RelativePath": "api/Articulo/categoria/{categoriaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "GetByCodigo",
+    "RelativePath": "api/Articulo/codigo/{codigo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "codigo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "GetByEquipo",
+    "RelativePath": "api/Articulo/equipo/{equipo}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "equipo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "GetByEstado",
+    "RelativePath": "api/Articulo/estado/{estadoId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadoId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "GetLowStock",
+    "RelativePath": "api/Articulo/low-stock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "minStock",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "Search",
+    "RelativePath": "api/Articulo/search/{searchTerm}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ArticuloController",
+    "Method": "GetTotalStock",
+    "RelativePath": "api/Articulo/total-stock",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuditoriaController",
+    "Method": "GetAll",
+    "RelativePath": "api/Auditoria",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Accion",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tabla",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaDesde",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaHasta",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuditoriaController",
+    "Method": "GetById",
+    "RelativePath": "api/Auditoria/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuditoriaController",
+    "Method": "GetByAccion",
+    "RelativePath": "api/Auditoria/accion/{accion}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accion",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuditoriaController",
+    "Method": "GetByFechaRango",
+    "RelativePath": "api/Auditoria/fecha-rango",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fechaInicio",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaFin",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuditoriaController",
+    "Method": "LimpiarAuditoriaAntigua",
+    "RelativePath": "api/Auditoria/limpiar-antigua",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "diasAntiguedad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuditoriaController",
+    "Method": "GetByTabla",
+    "RelativePath": "api/Auditoria/tabla/{tabla}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tabla",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuditoriaController",
+    "Method": "GetTotalRegistros",
+    "RelativePath": "api/Auditoria/total-registros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuditoriaController",
+    "Method": "GetByUsuario",
+    "RelativePath": "api/Auditoria/usuario/{usuarioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuthController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Auth/change-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "changePasswordDto",
+        "Type": "XWY.WebAPI.Business.DTOs.UsuarioPasswordChangeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "XWY.WebAPI.Business.DTOs.UsuarioLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.LoginResponseDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioCreateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.UsuarioCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.AuthController",
+    "Method": "ValidateToken",
+    "RelativePath": "api/Auth/validate-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "GetCategorias",
+    "RelativePath": "api/Catalogo/categorias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.CategoriaDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "CreateCategoria",
+    "RelativePath": "api/Catalogo/categorias",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "categoriaCreateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.CategoriaCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.CategoriaDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "UpdateCategoria",
+    "RelativePath": "api/Catalogo/categorias/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "categoriaUpdateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.CategoriaUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.CategoriaDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "DeleteCategoria",
+    "RelativePath": "api/Catalogo/categorias/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "GetEstadosArticulo",
+    "RelativePath": "api/Catalogo/estados-articulo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.EstadoArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "CreateEstadoArticulo",
+    "RelativePath": "api/Catalogo/estados-articulo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadoCreateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.EstadoArticuloCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.EstadoArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "GetEstadosPrestamo",
+    "RelativePath": "api/Catalogo/estados-prestamo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.EstadoPrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "CreateEstadoPrestamo",
+    "RelativePath": "api/Catalogo/estados-prestamo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estadoCreateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.EstadoPrestamoCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.EstadoPrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "GetRoles",
+    "RelativePath": "api/Catalogo/roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.RolDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "CreateRol",
+    "RelativePath": "api/Catalogo/roles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rolCreateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.RolCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.RolDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "UpdateRol",
+    "RelativePath": "api/Catalogo/roles/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rolUpdateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.RolUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.RolDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.CatalogoController",
+    "Method": "DeleteRol",
+    "RelativePath": "api/Catalogo/roles/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Prestamo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UsuarioId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ArticuloId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoPrestamoId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaDesde",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaHasta",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "RegistrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "OrdenarPor",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Descendente",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "Create",
+    "RelativePath": "api/Prestamo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prestamoCreateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.PrestamoCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "GetById",
+    "RelativePath": "api/Prestamo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "Update",
+    "RelativePath": "api/Prestamo/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "prestamoUpdateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.PrestamoUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "Delete",
+    "RelativePath": "api/Prestamo/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "Approve",
+    "RelativePath": "api/Prestamo/{id}/approve",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "aprobacionDto",
+        "Type": "XWY.WebAPI.Business.DTOs.PrestamoAprobacionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "Deliver",
+    "RelativePath": "api/Prestamo/{id}/deliver",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fechaEntrega",
+        "Type": "System.DateTime",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "Reject",
+    "RelativePath": "api/Prestamo/{id}/reject",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rechazoDto",
+        "Type": "XWY.WebAPI.Business.DTOs.PrestamoAprobacionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "Return",
+    "RelativePath": "api/Prestamo/{id}/return",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "devolucionDto",
+        "Type": "XWY.WebAPI.Business.DTOs.PrestamoDevolucionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "GetActivos",
+    "RelativePath": "api/Prestamo/activos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "GetByArticulo",
+    "RelativePath": "api/Prestamo/articulo/{articuloId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "articuloId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "GetHistorial",
+    "RelativePath": "api/Prestamo/historial",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "GetPendientes",
+    "RelativePath": "api/Prestamo/pendientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "GetPendientesCount",
+    "RelativePath": "api/Prestamo/pendientes-count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "GetTotal",
+    "RelativePath": "api/Prestamo/total",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "GetByUsuario",
+    "RelativePath": "api/Prestamo/usuario/{usuarioId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "GetVencidos",
+    "RelativePath": "api/Prestamo/vencidos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.PrestamoController",
+    "Method": "GetVencidosCount",
+    "RelativePath": "api/Prestamo/vencidos-count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ReporteController",
+    "Method": "ObtenerDatosReporteArticulos",
+    "RelativePath": "api/Reporte/articulos/datos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FechaDesde",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaHasta",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoriaId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoArticuloId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoPrestamoId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TipoReporte",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Formato",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ReporteArticulosDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ReporteController",
+    "Method": "GenerarReporteArticulosExcel",
+    "RelativePath": "api/Reporte/articulos/excel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametros",
+        "Type": "XWY.WebAPI.Business.DTOs.ReporteParametrosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ReporteController",
+    "Method": "GenerarReporteArticulosPdf",
+    "RelativePath": "api/Reporte/articulos/pdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametros",
+        "Type": "XWY.WebAPI.Business.DTOs.ReporteParametrosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ReporteController",
+    "Method": "GenerarReportePersonalizado",
+    "RelativePath": "api/Reporte/personalizado",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametros",
+        "Type": "XWY.WebAPI.Business.DTOs.ReporteParametrosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ReporteController",
+    "Method": "ObtenerDatosReportePrestamos",
+    "RelativePath": "api/Reporte/prestamos/datos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FechaDesde",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "FechaHasta",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CategoriaId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoArticuloId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EstadoPrestamoId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TipoReporte",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Formato",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ReportePrestamosDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ReporteController",
+    "Method": "GenerarReportePrestamosExcel",
+    "RelativePath": "api/Reporte/prestamos/excel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametros",
+        "Type": "XWY.WebAPI.Business.DTOs.ReporteParametrosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.ReporteController",
+    "Method": "GenerarReportePrestamosPdf",
+    "RelativePath": "api/Reporte/prestamos/pdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parametros",
+        "Type": "XWY.WebAPI.Business.DTOs.ReporteParametrosDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.UsuarioController",
+    "Method": "GetAll",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "registrosPorPagina",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.UsuarioController",
+    "Method": "Create",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioCreateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.UsuarioCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.UsuarioController",
+    "Method": "GetById",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.UsuarioController",
+    "Method": "Update",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuarioUpdateDto",
+        "Type": "XWY.WebAPI.Business.DTOs.UsuarioUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.UsuarioController",
+    "Method": "Delete",
+    "RelativePath": "api/Usuario/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.UsuarioController",
+    "Method": "GetByEmail",
+    "RelativePath": "api/Usuario/email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.UsuarioController",
+    "Method": "GetByRol",
+    "RelativePath": "api/Usuario/rol/{rolId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rolId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.UsuarioController",
+    "Method": "Search",
+    "RelativePath": "api/Usuario/search/{searchTerm}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchTerm",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.WebAPI.Controllers.UsuarioController",
+    "Method": "GetTotalActiveUsers",
+    "RelativePath": "api/Usuario/total-active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "XWY.WebAPI.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[XWY.WebAPI.WeatherForecast, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

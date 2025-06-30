@@ -1,0 +1,6 @@
+@XWY.WebAPI_HostAddress = http://localhost:5064
+
+GET {{XWY.WebAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
