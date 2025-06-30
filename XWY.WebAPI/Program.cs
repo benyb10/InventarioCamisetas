@@ -1,4 +1,4 @@
-using Microsoft.EntityFrameworkCore; // Aseg˙rate de tener este using
+Ôªøusing Microsoft.EntityFrameworkCore; // Aseg√∫rate de tener este using
 using XWY.WebAPI.DataAccess.Context;
 using XWY.WebAPI.Extensions;
 using XWY.WebAPI.WebAPI.Middleware;
@@ -29,8 +29,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "XWY Inventario API v1");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "UniformesUTA API v1");  // ‚Üê CAMBIO AQU√ç
         c.RoutePrefix = "swagger";
+        c.DocumentTitle = "UniformesUTA - API Documentation";  // ‚Üê A√ëADIR ESTA L√çNEA
     });
 }
 
@@ -51,7 +52,7 @@ app.UseAuthorization();
 app.MapControllers();
 app.MapHealthChecks("/health");
 
-// Inicializar base de datos y verificar conexiÛn
+// Inicializar base de datos y verificar conexi√≥n
 if (!app.Environment.EnvironmentName.Equals("Testing", StringComparison.OrdinalIgnoreCase))
 {
     using (var scope = app.Services.CreateScope())
@@ -59,14 +60,14 @@ if (!app.Environment.EnvironmentName.Equals("Testing", StringComparison.OrdinalI
         var context = scope.ServiceProvider.GetRequiredService<XWYDbContext>();
         try
         {
-            // ---> C”DIGO DE DIAGN”STICO <---
+            // ---> C√ìDIGO DE DIAGN√ìSTICO <---
             var connectionString = context.Database.GetConnectionString();
-            Console.WriteLine(); // LÌnea en blanco para separar
+            Console.WriteLine(); // L√≠nea en blanco para separar
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine("--- LA APLICACI”N SE EST¡ CONECTANDO A ESTA BASE DE DATOS ---");
+            Console.WriteLine("--- LA APLICACI√ìN SE EST√Å CONECTANDO A ESTA BASE DE DATOS ---");
             Console.WriteLine(connectionString);
             Console.WriteLine("********************************************************************************");
-            Console.WriteLine(); // LÌnea en blanco para separar
+            Console.WriteLine(); // L√≠nea en blanco para separar
 
             context.Database.EnsureCreated();
             Console.WriteLine("Base de datos verificada/creada exitosamente.");

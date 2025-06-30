@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35828.75 d17.13
+VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XWY.WebAPI", "XWY.WebAPI\XWY.WebAPI.csproj", "{81E77B07-83CE-478A-99A5-9CA5B1927A26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PruebaPractica", "XWY.WebAPI\PruebaPractica.csproj", "{81E77B07-83CE-478A-99A5-9CA5B1927A26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12411,9 +12411,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\XWY.WebAPI.csproj",
-      "projectName": "XWY.WebAPI",
-      "projectPath": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\XWY.WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\PruebaPractica.csproj",
+      "projectName": "PruebaPractica",
+      "projectPath": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\PruebaPractica.csproj",
       "packagesPath": "C:\\Users\\bryan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\bryan\\source\\repos\\XWY.InventarioSolution\\XWY.WebAPI\\obj\\",
       "projectStyle": "PackageReference",

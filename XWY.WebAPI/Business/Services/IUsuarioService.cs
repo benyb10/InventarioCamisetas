@@ -1,5 +1,4 @@
-﻿using System.Linq.Expressions;
-using XWY.WebAPI.Business.DTOs;
+﻿using XWY.WebAPI.Business.DTOs;
 
 namespace XWY.WebAPI.Business.Services
 {
@@ -16,6 +15,5 @@ namespace XWY.WebAPI.Business.Services
         Task<ResponseDto<bool>> ExistsByEmailAsync(string email);
         Task<ResponseDto<bool>> ExistsByCedulaAsync(string cedula);
         Task<ResponseDto<int>> GetTotalActiveUsersAsync();
-        Task<ResponseDto<List<UsuarioDto>>> GetByConditionAsync(Expression<Func<Entities.Usuario, bool>> condition);
     }
 }

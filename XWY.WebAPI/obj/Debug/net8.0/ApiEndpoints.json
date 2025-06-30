@@ -55,7 +55,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -81,7 +81,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -107,7 +107,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -138,7 +138,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -184,7 +184,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -230,7 +230,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -256,7 +256,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -282,7 +282,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -308,7 +308,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -334,7 +334,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -360,7 +360,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -436,7 +436,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -462,7 +462,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -488,7 +488,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -519,7 +519,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -571,7 +571,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -617,7 +617,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.AuditoriaLogDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -669,7 +669,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.LoginResponseDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.LoginResponseDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -695,7 +695,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -741,7 +741,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.CategoriaDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.CategoriaDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -767,7 +767,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.CategoriaDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.CategoriaDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -798,7 +798,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.CategoriaDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.CategoriaDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -844,7 +844,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.EstadoArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.EstadoArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -870,7 +870,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.EstadoArticuloDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.EstadoArticuloDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -890,7 +890,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.EstadoPrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.EstadoPrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -916,7 +916,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.EstadoPrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.EstadoPrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -936,7 +936,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.RolDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.RolDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -962,7 +962,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.RolDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.RolDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -993,7 +993,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.RolDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.RolDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1085,7 +1085,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1111,7 +1111,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1137,7 +1137,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1168,7 +1168,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1225,7 +1225,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1256,7 +1256,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1287,7 +1287,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1318,7 +1318,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1338,7 +1338,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1364,7 +1364,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1384,7 +1384,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1404,7 +1404,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1470,7 +1470,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1490,7 +1490,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.PrestamoDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1566,7 +1566,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ReporteArticulosDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ReporteArticulosDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1670,7 +1670,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ReportePrestamosDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.ReportePrestamosDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1733,7 +1733,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.PagedResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1759,7 +1759,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1785,7 +1785,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1816,7 +1816,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1868,7 +1868,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1894,7 +1894,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1920,7 +1920,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "Type": "XWY.WebAPI.Business.DTOs.ResponseDto\u00601[[System.Collections.Generic.List\u00601[[XWY.WebAPI.Business.DTOs.UsuarioDto, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -1960,7 +1960,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[XWY.WebAPI.WeatherForecast, XWY.WebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[XWY.WebAPI.WeatherForecast, PruebaPractica, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

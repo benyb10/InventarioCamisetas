@@ -61,7 +61,6 @@
 
   <ItemGroup>
     <Folder Include="DataAccess\Migrations\" />
-    <Folder Include="wwwroot\Documentation\" />
   </ItemGroup>
 
   <ItemGroup>

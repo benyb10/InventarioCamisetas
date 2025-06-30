@@ -93,13 +93,13 @@ namespace XWY.WebAPI.Extensions
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "XWY Inventario API",
+                    Title = "UniformesUTA API",  // ← CAMBIAR AQUÍ
                     Version = "v1.0",
-                    Description = "API para el sistema de inventario de camisetas de fútbol XWY",
+                    Description = "API para el sistema de gestión de uniformes deportivos - Universidad Técnica de Ambato",  // ← CAMBIAR AQUÍ
                     Contact = new OpenApiContact
                     {
-                        Name = "Equipo XWY",
-                        Email = "soporte@xwy.com"
+                        Name = "Carrera de Cultura Física",  // ← CAMBIAR AQUÍ
+                        Email = "cultura.fisica@uta.edu.ec"  // ← CAMBIAR AQUÍ
                     }
                 });
 
